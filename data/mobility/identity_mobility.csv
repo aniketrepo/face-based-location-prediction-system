@@ -1,0 +1,12 @@
+person_id,place_id,place_name,place_type,days,time_start,time_end,weight
+aniket_dixit,p1,College Campus,education,Mon|Tue|Wed|Thu|Fri,09:00,16:00,0.6
+aniket_dixit,p2,Home,personal,Mon|Tue|Wed|Thu|Fri,18:00,23:59,0.4
+aniket_dixit,p3,City Center,leisure,Sat|Sun,11:00,21:00,0.5
+
+arihant_dixit,p1,Office,work,Mon|Tue|Wed|Thu|Fri,10:00,18:00,0.7
+arihant_dixit,p2,Home,personal,Mon|Tue|Wed|Thu|Fri,19:00,23:59,0.3
+arihant_dixit,p3,Shopping Mall,leisure,Sat|Sun,12:00,22:00,0.5
+
+nidhi_dixit,p1,College Campus,education,Mon|Tue|Wed|Thu|Fri,09:30,15:30,0.6
+nidhi_dixit,p2,Home,personal,Mon|Tue|Wed|Thu|Fri,17:30,23:00,0.4
+nidhi_dixit,p3,Cafe Area,leisure,Sat|Sun,14:00,21:00,0.5
