@@ -48,10 +48,10 @@ The primary objectives of this project are:
 
 # Core Idea
 The system is built on a clear separation of concerns:
-- **Face Recognition**: handeled using ArcFace embeddings
-- **Location inference**: handeled using predefined behavioral rules
-- **Time awareness**: used to filter plausible locations
-- **No tracking**: no GPS, no surveillance, no continous monitoring
+- **Face Recognition** – handeled using ArcFace embeddings
+- **Location inference** – handeled using predefined behavioral rules
+- **Time awareness** – used to filter plausible locations
+- **No tracking** – no GPS, no surveillance, no continous monitoring
 
 # How the system works 
 - The webcam continuously captures video frames using OpenCV.
