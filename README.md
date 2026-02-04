@@ -1,5 +1,5 @@
 # Face-Based Location Prediction System
-A real-time computer vision system that recognizes a person using face embeddings (ArcFace) and infers their likely location based on spatiotemporal behavior patterns, rather than direct GPS tracking.
+A real-time computer vision system that recognizes a person using face embeddings (ArcFace) and predicts their likely location based on spatiotemporal behavior patterns, rather than direct GPS tracking.
 
 # Table of Contents
 - [Overview](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#overview)
