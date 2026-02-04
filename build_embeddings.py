@@ -35,4 +35,4 @@ for person in os.listdir(RAW_DIR):
     mean_embedding = np.mean(embeddings, axis=0)
     np.save(os.path.join(OUT_DIR, f"{person}.npy"), mean_embedding)
 
-    print(f"[✓] Saved embedding for {person}")
+    print(f"[-] Saved embedding for {person}")
