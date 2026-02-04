@@ -1,5 +1,37 @@
-# Face-Based Location Inference System
+# Face-Based Location Prediction System
 A real-time computer vision system that recognizes a person using face embeddings (ArcFace) and infers their likely location based on spatiotemporal behavior patterns, rather than direct GPS tracking.
+
+# Table of Contents
+- [Overview](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#overview)
+- [Objectives](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#objectives)
+- [Core Idea](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#core-idea)
+- [How the system works](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#how-the-system-works)
+- [Project Structure](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#project-structure)
+- [Dataset Description](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#dataset-description)
+- [System Architecture](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#system-architecture)
+- [identity_mobility.csv (Design)](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#identity_mobilitycsv-design)
+  - [Schema](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#schema)
+    - [Example](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#example)
+- [Technologies Used](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#technologies-used)
+  - [Python Version Requirement](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#python-version-requirement)
+    - [Important](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#important)
+    - [Recommended Version](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#recommended-version)
+- [How to run](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#how-to-run)
+  - [Step 1](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-1-clone-the-repository)
+  - [Step 2](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-2-create-and-activate-a-virtual-environment)
+    - [Windows](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#windows)
+    - [Linux/MacOS](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#linuxmacos)
+  - [Step 3](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-3-install-dependencies)
+  - [Step 4](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-4-set-up-the-data-directory)
+  - [Step 5](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-5-add-raw-face-images)
+  - [Step 6](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-6-generate-face-embeddings)
+  - [Step 7](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-7-configure-spatiotemporal-behavior)
+  - [Step 8](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-8-run-the-real-time-system)
+  - [Step 9](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#step-9-controls)
+- [Limitations](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#limitations)
+- [Ethical Considerations](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#ethical-considerations)
+- [Conclusion](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#conclusion)
+- [Author](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#author)
 
 # Overview
 This project demonstrates how identity recognition can be combined with rule-based spatiotemporal reasoning to infer a person’s probable location at a given time.
@@ -68,7 +100,7 @@ The system is designed as a modular pipeline with clear separation between perce
 - **Stabilization Layer** – Applies temporal smoothing and caching to ensure stable predictions.
 - **Output Layer** – Displays identity and inferred location in real time on the webcam feed.
 
-# `identity_mobility.csv` (Design)
+# identity_mobility.csv (Design)
 Each row represents **one frequent place for one person**, defined by time and day constraints.
 
 ## Schema
