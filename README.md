@@ -1,7 +1,9 @@
 # Face-Based Location Prediction System
 A real-time computer vision system that recognizes a person using face embeddings (ArcFace) and predicts their likely location based on spatiotemporal behavior patterns, rather than direct GPS tracking.
 
-# Table of Contents
+<details>
+  <summary><strong>Table of Contents</strong></summary>
+
 - [Overview](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#overview)
 - [Objectives](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#objectives)
 - [Core Idea](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#core-idea)
@@ -32,6 +34,8 @@ A real-time computer vision system that recognizes a person using face embedding
 - [Ethical Considerations](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#ethical-considerations)
 - [Conclusion](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#conclusion)
 - [Author](https://github.com/aniketrepo/face-based-location-prediction-system?tab=readme-ov-file#author)
+
+</details>
 
 # Overview
 This project demonstrates how identity recognition can be combined with rule-based spatiotemporal reasoning to infer a person’s probable location at a given time.
